@@ -397,6 +397,12 @@ https://thomaswan.uk
 
 ---
 
+Personal interest project, mainly developed for learning.
+
+个人与兴趣项目，主要用于学习。
+
 ⭐ 如果这个项目对你有帮助，欢迎 Star。
+
+Issues and Pull Requests are welcome.
 
 欢迎提交 Issue 或 Pull Request，共同改进项目。
