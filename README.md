@@ -1,5 +1,7 @@
 # VALORANT Homescreen Replacer
 
+> 🚀 **懒人直达：** [点击这里直接跳转到使用方法](https://github.com/thomaswan564/multi-tool#-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
+
 一个用于替换《VALORANT》主菜单 / 首页背景视频（Homescreen）的 Windows 小工具。
 
 本项目使用 Python + Tkinter 开发，支持 Riot Games 国际服和 Tencent Games 国服，可以自动搜索 VALORANT 安装目录，并通过选择或拖放 MP4 视频快速替换游戏主菜单视频。
@@ -396,3 +398,5 @@ https://thomaswan.uk
 ---
 
 ⭐ 如果这个项目对你有帮助，欢迎 Star。
+
+欢迎提交 Issue 或 Pull Request，共同改进项目。
