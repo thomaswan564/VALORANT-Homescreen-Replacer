@@ -1,33 +1,33 @@
-# VALORANT Homescreen Replacer
+# VALORANT/无畏契约 Homescreen Replacer
 
 > 🚀 **懒人直达：** [点击这里直接跳转到使用方法](https://github.com/thomaswan564/VALORANT-Homescreen-Replacer#-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 
-一个用于替换《VALORANT》主菜单 / 首页背景视频（Homescreen）的 Windows 小工具。
+一个用于替换《VALORANT/无畏契约》主菜单 / 首页背景视频（Homescreen）的 Windows 小工具。
 
-本项目使用 Python + Tkinter 开发，支持 [Riot Games-VALORANT](https://playvalorant.com/) 国际服和 [Tencent Games-无畏契约](https://val.qq.com/main.html) 国服，可以自动搜索 VALORANT 安装目录，并通过选择或拖放 MP4 视频快速替换游戏主菜单视频。
+本项目使用 Python + Tkinter 开发，支持 [Riot Games-VALORANT](https://playvalorant.com/) 国际服和 [Tencent Games-无畏契约](https://val.qq.com/main.html) 国服，可以自动搜索 VALORANT/无畏契约 安装目录，并通过选择或拖放 MP4 视频快速替换游戏主菜单视频。
 
 > **仅用于个人学习、研究和自定义游戏体验。**
 >
 > 请勿将本项目用于商业用途或任何违反游戏服务条款的行为。
 > 
-> **VALORANT在启动时会校验文件完整性，所以在更改后第二次启动时，启动器会自动更新游戏，更新不影响此工具的作用（此条不适用于[WeGame-无畏契约](https://www.wegame.com.cn/)启动的中国服）**
+> **VALORANT/无畏契约 在启动时会校验文件完整性，所以在更改后第二次启动时，启动器会自动更新游戏，更新不影响此工具的作用（此条不适用于[WeGame-无畏契约](https://www.wegame.com.cn/)启动的中国服）**
 
 ---
 
 ## ✨ 功能
 
-* 🎬 替换 VALORANT 主菜单 Homescreen 视频
+* 🎬 替换 VALORANT/无畏契约 主菜单 Homescreen 视频
 * 🌍 支持 [Riot Games-VALORANT](https://playvalorant.com/) 国际服
 * 🇨🇳 支持 [Tencent Games-无畏契约](https://val.qq.com/main.html) 中国服
-* 🔍 自动搜索 VALORANT 安装目录
+* 🔍 自动搜索 VALORANT/无畏契约 安装目录
 * 📁 支持手动选择 `Menu` 文件夹
 * 🎥 自动识别当前 `*_Homescreen.mp4`
 * 🖱️ 支持拖放 MP4 视频
 * 💾 自动记住上次选择的视频路径
-* 💾 自动记住 Riot / Tencent 的游戏目录
+* 💾 自动记住 [Riot Games-VALORANT](https://playvalorant.com/) / [Tencent Games-无畏契约](https://val.qq.com/main.html) 的游戏目录
 * 🔐 替换前自动备份原始视频
 * ♻️ 支持恢复原始 Homescreen
-* ⏳ 等待 VALORANT 启动后再执行替换
+* ⏳ 等待 VALORANT/无畏契约 启动后再执行替换
 * 📝 内置运行日志
 * 🖥️ 支持打包为独立 `.exe`
 * 🚫 不需要修改游戏文件夹以外的程序配置
@@ -41,7 +41,7 @@
 * [Riot Games-VALORANT](https://playvalorant.com/)
 * [Tencent Games-无畏契约](https://val.qq.com/main.html)
 
-然后程序会自动寻找 VALORANT 的 `Menu` 文件夹。
+然后程序会自动寻找 VALORANT/无畏契约 的 `Menu` 文件夹。
 
 如果没有自动找到，也可以手动选择：
 
@@ -56,7 +56,7 @@ VALORANT
 
 ---
 
-## 📂 VALORANT 视频位置
+## 📂 VALORANT/无畏契约 视频位置
 
 ### [Riot Games-VALORANT](https://playvalorant.com/)
 
@@ -102,7 +102,7 @@ xxxx_Homescreen.mp4
 
 ### 2. 选择服务器
 
-根据自己的 VALORANT 客户端选择：
+根据自己的 VALORANT/无畏契约 客户端选择：
 
 ```text
 Riot Games
@@ -132,7 +132,7 @@ Tencent Games
 
 ### 4. 执行替换
 
-程序会等待 VALORANT 相关进程启动，然后自动替换 Homescreen 视频。
+程序会等待 VALORANT/无畏契约 相关进程启动，然后自动替换 Homescreen 视频。
 
 原始视频会首先被备份。
 
@@ -153,7 +153,7 @@ Homescreen.mp4.bak
 
 ### 5. 恢复原视频
 
-如果想恢复 VALORANT 原本的 Homescreen，可以使用恢复功能。
+如果想恢复 VALORANT/无畏契约 原本的 Homescreen，可以使用恢复功能。
 
 程序会使用之前创建的：
 
@@ -333,7 +333,7 @@ VALORANT_Homescreen.exe
 
 ### 2. 游戏更新可能导致文件变化
 
-VALORANT 更新后，Homescreen 文件名称、位置或格式可能发生变化。
+VALORANT/无畏契约 更新后，Homescreen 文件名称、位置或格式可能发生变化。
 
 如果更新后程序无法正常替换，请重新选择 `Menu` 文件夹，并检查当前 Homescreen 文件。
 
@@ -355,7 +355,7 @@ VALORANT 更新后，Homescreen 文件名称、位置或格式可能发生变化
 
 ### 4. 游戏更新后可能需要重新替换
 
-VALORANT 更新可能会重新下载或覆盖原始 Homescreen 文件。
+VALORANT/无畏契约 更新可能会重新下载或覆盖原始 Homescreen 文件。
 
 这种情况下重新运行本程序即可。
 
@@ -366,7 +366,7 @@ VALORANT 更新可能会重新下载或覆盖原始 Homescreen 文件。
 本程序不会主动上传：
 
 * 视频文件
-* VALORANT 游戏数据
+* VALORANT/无畏契约 游戏数据
 * 用户名
 * 游戏账号信息
 * 个人文件
@@ -383,7 +383,7 @@ VALORANT 更新可能会重新下载或覆盖原始 Homescreen 文件。
 
 本项目仅供个人学习、研究及自定义游戏体验使用。
 
-VALORANT、[Riot Games](https://www.riotgames.com/) 及 [Tencent](https://game.qq.com/) 等相关名称、商标和游戏内容归其各自所有者所有。
+VALORANT/无畏契约、[Riot Games](https://www.riotgames.com/) 及 [Tencent](https://game.qq.com/) 等相关名称、商标和游戏内容归其各自所有者所有。
 
 [Riot Games-VALORANT](https://playvalorant.com/):
 > RIOT GAMES、《特戰英豪》及其相關標誌皆為 Riot Games, Inc.專屬之商標、服務商標及註冊商標。
@@ -399,7 +399,7 @@ VALORANT、[Riot Games](https://www.riotgames.com/) 及 [Tencent](https://game.q
 > 出版物号：ISBN 978-7-498-09857-3
 > 防沉迷提醒：根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》、《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》， 所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。
 
-本项目与 [Riot Games](https://www.riotgames.com/)、[Tencent](https://game.qq.com/) 或 VALORANT 官方没有任何隶属、授权或合作关系。
+本项目与 [Riot Games](https://www.riotgames.com/)、[Tencent](https://game.qq.com/) 或 VALORANT/无畏契约 官方没有任何隶属、授权或合作关系。
 
 ---
 
