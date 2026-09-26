@@ -4,21 +4,21 @@
 
 一个用于替换《VALORANT》主菜单 / 首页背景视频（Homescreen）的 Windows 小工具。
 
-本项目使用 Python + Tkinter 开发，支持 Riot Games 国际服和 Tencent Games 国服，可以自动搜索 VALORANT 安装目录，并通过选择或拖放 MP4 视频快速替换游戏主菜单视频。
+本项目使用 Python + Tkinter 开发，支持 [Riot Games-VALORANT](https://playvalorant.com/) 国际服和 [Tencent Games-无畏契约](https://val.qq.com/main.html) 国服，可以自动搜索 VALORANT 安装目录，并通过选择或拖放 MP4 视频快速替换游戏主菜单视频。
 
 > **仅用于个人学习、研究和自定义游戏体验。**
 >
 > 请勿将本项目用于商业用途或任何违反游戏服务条款的行为。
 > 
-> **VALORANT在启动时会校验文件完整性，所以在更改后第二次启动时，启动器会自动更新游戏，更新不影响此工具的作用（不适用于[WeGame](https://www.wegame.com.cn/)启动的中国服）**
+> **VALORANT在启动时会校验文件完整性，所以在更改后第二次启动时，启动器会自动更新游戏，更新不影响此工具的作用（此条不适用于[WeGame-无畏契约](https://www.wegame.com.cn/)启动的中国服）**
 
 ---
 
 ## ✨ 功能
 
 * 🎬 替换 VALORANT 主菜单 Homescreen 视频
-* 🌍 支持 Riot Games 国际服
-* 🇨🇳 支持 Tencent Games 国服
+* 🌍 支持 [Riot Games-VALORANT](https://playvalorant.com/) 国际服
+* 🇨🇳 支持 [Tencent Games-无畏契约](https://val.qq.com/main.html) 中国服
 * 🔍 自动搜索 VALORANT 安装目录
 * 📁 支持手动选择 `Menu` 文件夹
 * 🎥 自动识别当前 `*_Homescreen.mp4`
@@ -38,8 +38,8 @@
 
 程序启动后，可以选择服务器类型：
 
-* Riot Games
-* Tencent Games
+* [Riot Games-VALORANT](https://playvalorant.com/)
+* [Tencent Games-无畏契约](https://val.qq.com/main.html)
 
 然后程序会自动寻找 VALORANT 的 `Menu` 文件夹。
 
@@ -58,7 +58,7 @@ VALORANT
 
 ## 📂 VALORANT 视频位置
 
-### Riot Games
+### [Riot Games-VALORANT](https://playvalorant.com/)
 
 通常位于：
 
@@ -66,7 +66,7 @@ VALORANT
 Riot Games\VALORANT\live\ShooterGame\Content\Movies\Menu
 ```
 
-### Tencent Games
+### [Tencent Games-无畏契约](https://val.qq.com/main.html)
 
 通常位于：
 
@@ -383,9 +383,23 @@ VALORANT 更新可能会重新下载或覆盖原始 Homescreen 文件。
 
 本项目仅供个人学习、研究及自定义游戏体验使用。
 
-VALORANT、Riot Games 及 Tencent 等相关名称、商标和游戏内容归其各自所有者所有。
+VALORANT、[Riot Games](https://www.riotgames.com/) 及 [Tencent](https://game.qq.com/) 等相关名称、商标和游戏内容归其各自所有者所有。
 
-本项目与 Riot Games、Tencent 或 VALORANT 官方没有任何隶属、授权或合作关系。
+[Riot Games-VALORANT](https://playvalorant.com/):
+> RIOT GAMES、《特戰英豪》及其相關標誌皆為 Riot Games, Inc.專屬之商標、服務商標及註冊商標。
+> © 2020-2026 Riot Games, Inc. 版權所有。
+> 通過下載，安裝和／或將Riot帳戶連接到特戰英豪遊戲軟體，即表示您同意台灣大哥大股份有限公司的「使用者合約」和「隱私權政策」。
+
+[Tencent Games-无畏契约](https://val.qq.com/main.html)
+> COPYRIGHT © 1998 - 2026 TENCENT.ALL RIGHTS RESERVED.
+> 腾讯公司 版权所有
+> 营业执照|粤网文[2023]2882-203号|（署）网出证（粤）字第054号
+> 网络游戏行业防沉迷自律公约：本公司积极履行《网络游戏行业防沉迷自律公约》
+> 审批文号：国新出审[2022]1665号
+> 出版物号：ISBN 978-7-498-09857-3
+> 防沉迷提醒：根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》、《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》， 所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。
+
+本项目与 [Riot Games](https://www.riotgames.com/)、[Tencent](https://game.qq.com/) 或 VALORANT 官方没有任何隶属、授权或合作关系。
 
 ---
 
